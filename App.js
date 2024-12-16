@@ -8,6 +8,7 @@ import AboutPage from './pages/about/AboutPage.js'
 export default function App() {
   const state = reactive({ page: ''})
 
+  page.redirect('/index.html', '/')
   page('/', () => {
     state.page = Layout(HomePage, { title: 'Home' })
   })

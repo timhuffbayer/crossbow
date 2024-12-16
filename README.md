@@ -9,6 +9,10 @@ Compile-less native component SPA framework.
 ### picocss. Provides minimal css defaults.
 [picocss](https://picocss.com/)
 
+## Features
+Page routing, functional components, native htm using native html templates,
+css management per component, easy data reactivity, esm, no compilation or bundling.
+
 ## Install
 VS Code:
 1. Install Live Server extension

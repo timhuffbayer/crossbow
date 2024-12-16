@@ -8,8 +8,8 @@ export default function Nav() {
   <nav>
     <ul>
     <li><strong>Quiver</strong></li>
-      <li> <a href="javascript:void(0)" @click="${page('/')}">Home</a> </li>
-      <li> <a href="javascript:void(0)" @click="${page('/about')}">About</a> </li>
+      <li> <a href="javascript:void(0)" @click="${() => page('/')}">Home</a> </li>
+      <li> <a href="javascript:void(0)" @click="${() => page('/about')}">About</a> </li>
     </ul>
     <ul>
       <li> <a href="javascript:void(0)" @click="${() => login()}">${() => layoutStore.loggedIn ? 'Logout' : 'Login'}</a> </li>

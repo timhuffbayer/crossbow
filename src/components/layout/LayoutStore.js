@@ -1,7 +1,7 @@
-import { reactive } from 'https://esm.sh/@arrow-js/core'
+import { reactive } from "@arrow-js/core"
 
 export const layoutStore = reactive({
-  loggedIn: false
+  loggedIn: false,
 })
 
 export function login() {
